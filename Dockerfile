@@ -1,9 +1,8 @@
-FROM ubuntu:trusty
+FROM cptactionhank/ubuntu:trusty:trusty
 MAINTAINER cptactionhank <cptactionhank@users.noreply.github.com>
 
 RUN apt-get update -qq \
-    && apt-get install -yqq samba libnss-ldap ldap-utils \
-    && auth-client-config -t nss -p lac_ldap
+    && apt-get install -yqq samba
 
 EXPOSE 139 445
 
