@@ -1,4 +1,4 @@
-FROM cptactionhank/ubuntu:trusty:trusty
+FROM cptactionhank/ubuntu:trusty
 MAINTAINER cptactionhank <cptactionhank@users.noreply.github.com>
 
 RUN apt-get update -qq \
