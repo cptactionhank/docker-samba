@@ -8,4 +8,4 @@ EXPOSE 139 445
 
 VOLUME ["/etc/samba", "/var/lib/samba", "/var/log/samba", "/usr/local/samba/private"]
 
-ENTRYPOINY ["smbd", "--foreground", "--log-stdout"]
+ENTRYPOINT ["smbd", "--foreground", "--log-stdout"]
